@@ -47,7 +47,7 @@ public class RegistrationService {
 	 * @param customer
 	 * @return list of errors
 	 */
-	private List<String> validateCustomerFields(Customer customer) {
+	public List<String> validateCustomerFields(Customer customer) {
 		List<String> errorList = new ArrayList<>();
 		String email = customer.getEmail();
 		String password = customer.getPassword();
